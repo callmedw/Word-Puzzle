@@ -6,6 +6,11 @@ $(document).ready(function(){
 			var thePuzzle = thePuzzle.split(vowels[index]).join("-");
 
     }
+
+
+
+
+    
     $(".puzzle").text(puzzle);
     $(".thePuzzle").text(thePuzzle);
 });
